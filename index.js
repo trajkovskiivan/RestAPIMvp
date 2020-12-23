@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.port || 4000;
 
 // connect to mongodb
-mongoose.connect('mongodb://localhost/ninjago', {useNewUrlParser: true, useUnifiedTopology: true}).then(() => console.log('Connected to the database')).catch(err => console.log(err));
+mongoose.connect('mongodb://localhost/LocalDBName', {useNewUrlParser: true, useUnifiedTopology: true}).then(() => console.log('Connected to the database')).catch(err => console.log(err));
 mongoose.Promise = global.Promise;
 
 // body parser
