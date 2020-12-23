@@ -1,0 +1,17 @@
+{
+  "name": "rest-api-playlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0"
+  }
+}
